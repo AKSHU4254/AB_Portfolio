@@ -1,25 +1,25 @@
-import pro1 from "../assets/Project1.jpeg"
-import pro2 from "../assets/Project2.png"
-import pro3 from "../assets/Project3.png"
+import pro1 from "../assets/SummerTravel.png"
+import pro2 from "../assets/Travalworld.png"
+import pro3 from "../assets/BlueE-Commerce.png"
 
 const ProjectCardData = [
     {
         imgsrc: pro1,
-        title: "Instagram",
-        text: "Add text Here",
-        view:"add your url"
+        title: "Tour Management",
+        text: "It helps me to understand how site works with admin panal",
+        view:"https://github.com/AKSHU4254/Tour_Management"
     },
     {
         imgsrc: pro2,
-        title: "Facebook",
-        text: "Add text Here",
-        view:"add your url"
+        title: "Travel Project",
+        text: "Gives brif idea about how tour management system works",
+        view:"https://github.com/AKSHU4254/Travel-Project"
     },
     {
         imgsrc: pro3,
-        title: "Linkedin",
-        text: "Add text Here",
-        view:"add your url"
+        title: "E Commerce",
+        text: "This gives me idea about ecommerce website work and how to deal with cart",
+        view:"https://github.com/AKSHU4254/E_Commerce"
     }
 ]
 export default ProjectCardData;
