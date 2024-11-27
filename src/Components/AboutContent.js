@@ -12,7 +12,8 @@ const AboutContent = () => {
       <div className="left">
         <h1>Who Am I ?</h1>
         <p>
-        I am a ReactJS front-end developer who creates creative, responsive, and secure websites for my clients. feel free to contact.
+        Working as full stack developer with 2.6 yr of experience of web domain, where i worked on E commerce website and web application.
+        Tech skack usd on this journey is HTML, CSS, Javascript, React, Node, Express, MongoDB. where i working continues improvement in my knowleadge. 
         </p>
         <Link to="/contact">
           <button className="btn">Contact</button>
