@@ -9,7 +9,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
+    /* grid-gap: 40px; */
 }
 
 .left{
@@ -18,10 +18,22 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    justify-content:space-between
 }
 .location {
     /* line-height: 30px; */
     display: flex;
+    align-items: center;
+}
+
+.phone h4{
+    display: flex;
+    align-items: center;
+}
+
+.email h4{
+    display: flex;
+    align-items: center;
 }
 
 .right{
@@ -31,6 +43,7 @@
     flex-direction: column;
     padding: 1rem;
 }
+
 .social{
     margin-top: 1rem;
 }
