@@ -42,7 +42,7 @@ const Form = () => {
     emailjs.send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
         console.log('Email sent successfully!', response);
-        if (response.status === "200") {
+        if (response.status === 200 ) {
           Alert();
         }
 
